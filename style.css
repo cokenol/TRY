@@ -45,3 +45,17 @@ p{
   font-size: 14px;
   font-weight: normal;
 }
+
+li.box{
+  display:inline-block;
+  padding:30px;
+  background-color:linen;
+  margin:20px;
+
+}
+
+a.home{
+  position:sticky;
+  top:0px;
+  right:20px;
+}
