@@ -25,10 +25,15 @@ li:before{
 li.head3{
   font-size:large;
   font-weight: bolder;
-
+  margin-top: 30px;
   }
 li.p{
   font-size: 14px;
   font-weight: normal;
   margin-top: 20px;
+}
+
+p{
+  font-size: 14px;
+  font-weight: normal;
 }
