@@ -11,4 +11,17 @@ h1{
   background-color:aqua;
   padding: 20px;
   text-align:center;
+  font-family: 'Franklin Gothic Medium';
+}
+ol {
+  counter-reset: item
+}
+li{
+  display:block;
+}
+li:before{
+  content: counters(item, ".") " ";
+  counter-increment: item }
+p{
+  font-size: 12px;
 }
