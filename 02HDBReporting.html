@@ -2,112 +2,18 @@
 <html>
 
   <head>
-    <title>PEC48 EChart Guide</title>
+    <title>PEC48 HDB Forecast Reporting Guide</title>
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <h1>PEC48 E-Chart guide to use R1</h1>
+    <h1>PEC48 HDB Forecast Reporting Guide R1</h1>
     <a class="home" href="index.html">Back to home page</a>
     <ol>
       <li class="100 head3">Senai Echart
         <ol>
           <li class ="101 p"> Configuring the settings to use “EChart 21013.xlsm” echart so it doesn’t auto calculate the whole echart. VERY IMPORTANT IF YOU DO NOT WANT TO EXCEL TO LAG.</li>
         <img src="01EChart-Guide/image1.png" alt="Excel configuration to prevent lagging">
-        </ol>
-      </li>
-
-      <li class="200 head3">Import E-Chart from Senai
-        <ol>
-          <li class="201 p">Open up both “EChart 210113.xlsm” and echart received from Senai, for this example, senai echart is “EChart 210113 210825.xlsm"</li>
-          <img src="01EChart-Guide/image2.png" alt="">
-
-
-          <li class="202 p">When you opened up both echart make sure to press “Don’t update” button. Updating will cause all formulas to recalculate and eventually cause the excel to freeze.</li>
-          <img src="01EChart-Guide/image3.png" alt="">
-
-          <li class="203 p">Press Alt + F11 to open up the Microsft Visual Basic for Applications window.</li>
-
-          <img src="01EChart-Guide/image4.gif" alt="">
-          <img src="01EChart-Guide/image5.png" alt="">
-
-          <li class="204 p">Click the 1. Import Senai Button and the immediate window in the right window should start to show its actions of
-          importing.</li>
-
-          <img src="01EChart-Guide/image6.png" alt="">
-          <img src="01EChart-Guide/image7.gif" alt="">
-
-          <li class="205 p">Next, we need to update the CIS status of each panels in the database table from the echart. To do this press the “2. Update CIS status” button. This process may take about 20minutes.</li>
-          <img src="01EChart-Guide/image8.png" alt="">
-          <img src="01EChart-Guide/image9.gif" alt="">
-
-          <li class="206 p">Then, we need to check date errors in the echart so when we import there is no errors halting the import process. To do this, press “3. Check Date Error” button.</li>
-          <img src="01EChart-Guide/image10.png" alt="">
-          <img src="01EChart-Guide/image11.gif" alt="">
-          <p>If the immediate window doesn’t show any “ERROR AT:” messages then it should be fine to go to next step which is
-          importing all the cast and delivery dates.</p>
-
-          <li class="207 p">Finally, now we will be doing the final step to import all the cast, DO number and delivery dates. After completing steps 2.4 till 2.6, now you can press the “4. Import all new dates” button. This process also takes about 20 minutes.</li>
-          <img src="01EChart-Guide/image12.png" alt="">
-          <img src="01EChart-Guide/image13.gif" alt="">
-        </ol>
-      </li>
-
-
-      <li class="300 head3">Update on Daily Report
-        <ol>
-          <li class="301 p">First we will go to this worksheet and to get update on Daily Cast Panels.</li>
-          <img src="01EChart-Guide/image14.png" alt="">
-
-          <li class="302 p">Key in the cast date i.e yesterday to set the date to find what has been casted and press the “Get Casted” button to obtain daily cast panels.</li>
-          <img src="01EChart-Guide/image15.gif" alt="">
-
-          <li class="303 p">Next, go to “CESSmry (3)” worksheet and press Shift + F9 to calculate only that worksheet to update the summary numbers.</li>
-          <img src="01EChart-Guide/image16.png" alt="">
-          <img src="01EChart-Guide/image17.gif" alt="">
-
-          <li class="304 p">Next, go back to workshee “DailyCasted3A4C” and press “Lau Format ALL BLK” to update the casted and delivered panels for each block. This process will take about 2 minutes.</li>
-          <img src="01EChart-Guide/image18.gif" alt="">
-
-          <li class="305 p">Next, update slab cast date colours in “CESSmry (3)”, if casted it will update as yellow as per worksheet “MCProgram”.</li>
-          <img src="01EChart-Guide/image19.gif" alt="">
-
-          <li class="306 p">And finally, press the button “Print Report FOR SEAN” to print out the daily cast report.</li>
-          <img src="01EChart-Guide/image20.gif" alt="">
-        </ol>
-      </li>
-
-      <li class="400 head3">To print out “pending” to monitor urgent and upcoming deliveries.
-        <ol>
-          <li class="401 p">Simply press the button in “Check cast& delivery 3”, and it will generate out the urgent & upcoming deliveries in worksheet “Pend”.</li>
-          <img src="01EChart-Guide/image21.gif" alt="">
-
-          <li class="402 p">Next, copy the previous word file into a new date, and open that file.</li>
-          <img src="01EChart-Guide/image22.gif" alt="">
-
-          <li class="403 p">Delete the existing table and its content in the word file.</li>
-          <img src="01EChart-Guide/image23.gif" alt="">
-
-          <li class="404 p">Copy the excel table in “pend” worksheet and paste in the word file.</li>
-          <img src="01EChart-Guide/image24.gif" alt="">
-
-          <li class="405 p">Adjust the table so it fits to the whole margin of the paper size.</li>
-          <img src="01EChart-Guide/image25.gif" alt="">
-
-          <li class="406 p">You may go ahead and delete these parts after you checked out the amount of pending to cast. I delete these cuz the pending to cast column will be too cluttered.</li>
-          <img src="01EChart-Guide/image26.gif" alt="">
-
-          <li class="407 p">You can use <strong>ctrl+q</strong> to bold the whole line.</li>
-          <img src="01EChart-Guide/image27.gif" alt="">
-
-          <li class="408 p">You can use ctrl + w to highlight to whole line in yellow if you wish to do so.</li>
-          <img src="01EChart-Guide/image28.gif" alt="">
-
-          <li class="409 p">You can also use <strong>ctrl + e</strong> to hightlight in red if you wish to highlight anything in red.</li>
-          <img src="01EChart-Guide/image29.gif" alt="">
-
-          <li class="410 p">After you are done with editing this pending report, you may then print this in PDF format and share in the whatsapp group.</li>
-
         </ol>
       </li>
 
