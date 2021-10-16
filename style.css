@@ -68,3 +68,10 @@ a.home{
 ol.h3{
   background-color: cornflowerblue;
 }
+
+img{
+
+  max-width: 88vw;
+  height: auto;
+
+}
