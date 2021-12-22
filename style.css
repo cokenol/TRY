@@ -4,13 +4,14 @@
 }
 
 body{
-
-  font-family:helvetica;
+  font-family: helvetica;
 }
 
+
 body.indexpage{
-  background-image: url(https://picsum.photos/1920/1080);
+  /* background-image: url(https://picsum.photos/1920/1080); */
   background-size: cover;
+  background: linear-gradient(rgba(0,0,255,0.6),rgba(0,0,255,0.6));
 }
 h1{
   background-color:aqua;
@@ -40,9 +41,18 @@ li.p{
   font-size: 14px;
   font-weight: normal;
   background-color: white;
-  margin-top: 20px;
+  padding: 0.2rem 1rem;
+  margin: 1rem 0;
+  height: 2rem;
   position: sticky;
   top: 55px;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+a:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
 }
 
 
