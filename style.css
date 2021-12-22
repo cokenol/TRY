@@ -42,7 +42,7 @@ li.p{
   font-weight: normal;
   background-color: white;
   padding: 0.2rem 1rem;
-  margin: 1rem 0;
+  margin: 1rem 0.2rem;
   height: 2rem;
   position: sticky;
   top: 55px;
@@ -50,8 +50,8 @@ li.p{
   border-radius: 0.5rem;
 }
 
-a:hover {
-  transform: scale(1.2);
+li.box:hover {
+  transform: scale(1.1) rotate(-0.01turn);
   transition: 0.3s;
 }
 
