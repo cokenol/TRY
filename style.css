@@ -31,6 +31,12 @@ li:before{
   content: counters(item, ".") " ";
   counter-increment: item
 }
+
+/* remove counters on nav bar */
+li.page-item:before {
+  display: none;
+}
+
 li.head3{
   font-size:large;
   font-weight: bolder;
@@ -45,7 +51,7 @@ li.p{
   margin: 1rem 0.2rem;
   height: 2rem;
   position: sticky;
-  top: 55px;
+  top: 120px;
   border: 1px solid black;
   border-radius: 0.5rem;
 }
@@ -85,4 +91,19 @@ img{
   max-width: 88vw;
   height: auto;
 
+}
+
+ol.komo > li {
+  display: none;
+}
+
+ol.komo > li.active {
+  display: block;
+}
+
+nav.komo {
+  position: sticky;
+  top: 68px;
+  margin-left: 2rem;
+  background-color: white;
 }
